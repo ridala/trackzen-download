@@ -12,8 +12,8 @@ This public repository is the download surface for alpha builds. The application
 
 ## Download
 
-- Latest release: `https://github.com/ridala/trackzen-download/releases/latest`
-- Direct download for `0.0.1 alpha`: `https://github.com/ridala/trackzen-download/releases/download/0.0.1-alpha/TrackZen-0.0.1-alpha.dmg`
+- Open the release page: [TrackZen 0.0.1 alpha](https://github.com/ridala/trackzen-download/releases/latest)
+- Download the installer: [TrackZen-0.0.1-alpha.dmg](https://github.com/ridala/trackzen-download/releases/download/0.0.1-alpha/TrackZen-0.0.1-alpha.dmg)
 
 ## What TrackZen Does
 
