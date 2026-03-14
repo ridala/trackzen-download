@@ -29,18 +29,33 @@ TrackZen helps freelancers, developers, designers, and consultants:
 1. Download the `.dmg` from the latest release.
 2. Open the `.dmg`.
 3. Drag `TrackZen.app` into `Applications`.
-4. Open TrackZen from `Applications`.
+4. Try opening TrackZen from `Applications`.
 
-## macOS Note
+## Unsigned Alpha Build
 
-If macOS warns you because this is an alpha build:
+This alpha build is not Apple-notarized yet. macOS will likely block it the first time you open it.
+
+If TrackZen does not open:
+
+1. In `Applications`, right-click `TrackZen.app`.
+2. Choose `Open`.
+3. If macOS shows a warning, confirm the open action.
+
+If macOS still blocks the app:
 
 1. Open `System Settings` > `Privacy & Security`.
-2. Find the blocked app message for TrackZen.
-3. Allow the app to open.
-4. Launch the app again.
+2. Scroll to the security section near the bottom.
+3. Find the message saying TrackZen was blocked.
+4. Click `Open Anyway`.
+5. Launch TrackZen again.
 
-If the build is signed and notarized before release, this warning may not appear.
+This is expected for the current unpaid alpha distribution path.
+
+## Known Alpha Distribution Limitations
+
+- macOS may show stronger security warnings because the app is not notarized
+- the first launch flow is intended for trusted testers, not broad public distribution
+- future builds may move to signed and notarized distribution
 
 ## Feedback
 
