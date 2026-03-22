@@ -1,69 +1,63 @@
-# TrackZen
+# ZenTrack
 
-TrackZen is a local-first macOS desktop app for calm, focused time tracking.
+ZenTrack is a local-first desktop time tracker for client and project work.
 
-This public repository is the download surface for alpha builds. The application source code remains private during the alpha phase.
+This public repository is the download and release-notes surface for alpha releases. The application source code remains private.
 
-## Current Alpha
+## Current Release
 
-- Version: `0.0.1 alpha`
-- Release tag: `0.0.1-alpha`
-- Platform: macOS
+- Version: `0.2.1 alpha`
+- Release tag: `v0.2.1-alpha`
+- Download page: [Latest release](https://github.com/ridala/zentrack-download/releases/latest)
 
-## Download
+## Screenshots
 
-- Open the release page: [TrackZen 0.0.1 alpha](https://github.com/ridala/trackzen-download/releases/latest)
-- Download the installer: [TrackZen-0.0.1-alpha.dmg](https://github.com/ridala/trackzen-download/releases/download/0.0.1-alpha/TrackZen-0.0.1-alpha.dmg)
+### Overview
 
-## What TrackZen Does
+![Overview](assets/screenshots/overview-macos-light.png)
 
-TrackZen helps freelancers, developers, designers, and consultants:
+### Clients
 
-- track work sessions by client and project
-- review daily history and totals
-- export CSV reports
-- keep data local on the Mac
+![Clients](assets/screenshots/clients-macos-light.png)
 
-## Install
+### History
 
-1. Download the `.dmg` from the latest release.
-2. Open the `.dmg`.
-3. Drag `TrackZen.app` into `Applications`.
-4. Try opening TrackZen from `Applications`.
+![History](assets/screenshots/history-macos-light.png)
 
-## Unsigned Alpha Build
+### Reports
 
-This alpha build is not Apple-notarized yet. macOS will likely block it the first time you open it.
+![Reports](assets/screenshots/reports-macos-light.png)
 
-If TrackZen does not open:
+### Tray
 
-1. In `Applications`, right-click `TrackZen.app`.
-2. Choose `Open`.
-3. If macOS shows a warning, confirm the open action.
+![Tray](assets/screenshots/tray-macos-light.png)
 
-If macOS still blocks the app:
+## What ZenTrack Includes
 
-1. Open `System Settings` > `Privacy & Security`.
-2. Scroll to the security section near the bottom.
-3. Find the message saying TrackZen was blocked.
-4. Click `Open Anyway`.
-5. Launch TrackZen again.
+- overview timer flow: start, pause, resume, stop
+- clients and projects with full CRUD
+- project software rules and ignored-time filtering
+- history with day-grouped review, manual entries, overnight sessions, and app-usage detail
+- reports with totals, by-client, by-day, and by-project rows
+- CSV export from the reports page and the native menu
+- tray access for timer state, open-main, and stop-timer actions
+- settings for idle detection and auto-pause
+- native activity tracking on macOS
 
-This is expected for the current unpaid alpha distribution path.
+## Installers
 
-## Known Alpha Distribution Limitations
+Release assets are uploaded to GitHub Releases instead of being committed into this repository.
 
-- macOS may show stronger security warnings because the app is not notarized
-- the first launch flow is intended for trusted testers, not broad public distribution
-- future builds may move to signed and notarized distribution
+Check the assets attached to this release tag for the actual artifacts published for this build.
 
-## Feedback
+### macOS
 
-This alpha is intended for early testing.
+- `ZenTrack-0.2.1-macos-arm64.dmg` — Apple Silicon
 
-- report bugs through this repository's issue tracker, if enabled
-- otherwise send feedback directly to the TrackZen team
+## Notes
 
-## Source Code
-
-TrackZen source code is not published in this repository during the alpha period. This repo exists only for release notes, download links, and installer distribution.
+- ZenTrack is a macOS desktop app
+- alpha release builds are unsigned and not notarized
+- macOS Gatekeeper will show a warning on first launch; right-click and select Open to bypass
+- public README images use stable repo-relative paths
+- this repository should never contain source code, secrets, or build caches
