@@ -10,27 +10,6 @@ This public repository is the download and release-notes surface for alpha relea
 - Release tag: `v0.2.1-alpha`
 - Download page: [Latest release](https://github.com/ridala/zentrack-download/releases/latest)
 
-## Screenshots
-
-### Overview
-
-![Overview](assets/screenshots/overview-macos-light.png)
-
-### Clients
-
-![Clients](assets/screenshots/clients-macos-light.png)
-
-### History
-
-![History](assets/screenshots/history-macos-light.png)
-
-### Reports
-
-![Reports](assets/screenshots/reports-macos-light.png)
-
-### Tray
-
-![Tray](assets/screenshots/tray-macos-light.png)
 
 ## What ZenTrack Includes
 
